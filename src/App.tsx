@@ -1,26 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import BrowsePage from "./pages/BrowsePage";
+import UpsellPage from "./pages/UpsellPage";
+import CheckoutPage from "./pages/CheckoutPage";
+import ConfirmationPage from "./pages/ConfirmationPage";
+import { useStore } from "./context/StoreContext";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	const { stage } = useStore();
+
+	return (
+		<div className="container">
+			<h1>🛍️ Online Store</h1>
+
+			{stage === "browse" && <BrowsePage />}
+			{stage === "upsell" && <UpsellPage />}
+			{stage === "checkout" && <CheckoutPage />}
+			{stage === "confirmation" && <ConfirmationPage />}
+		</div>
+	);
 }
 
 export default App;
