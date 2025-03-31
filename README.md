@@ -31,7 +31,7 @@ This project simulates a seamless shopping experience from browsing to checkout 
 ## 🚀 Getting Started
 
 ```bash
-git clone https://github.com/yourusername/mock-storefront.git
-cd mock-storefront
+git clone https://github.com/yourusername/storefront.git
+cd storefront
 npm install
 npm start
