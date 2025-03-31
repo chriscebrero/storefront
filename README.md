@@ -8,23 +8,23 @@ This project simulates a seamless shopping experience from browsing to checkout 
 
 ## ✨ Features
 
-- 🧘‍♀️ Calm & peaceful UI using soft pastel colors
-- 📦 Browse real products via DummyJSON API
-- 🎁 Upsell page with optional add-ons
-- 💳 Checkout form with validation
-- 🧾 Confirmation page with thumbnail order summary
-- 🔄 "Back to Store" button that resets your cart and data
-- 📁 JSON download of order summary as mock backend simulation
+- Calm & peaceful UI using soft pastel colors
+-  Browse real products via DummyJSON API
+-  Upsell page with optional add-ons
+-  Checkout form with validation
+-  Confirmation page with thumbnail order summary
+-  "Back to Store" button that resets your cart and data
+-  JSON download of order summary as mock backend simulation
 
 ---
 
 ## 🛠 Tech Stack
 
 - ⚛️ React + TypeScript
-- 🎨 CSS
-- 🧠 Context API
-- 📡 DummyJSON API (products)
-- 💾 Blob API (to simulate file download)
+-  CSS
+-  Context API
+-  DummyJSON API (products)
+-  Blob API (to simulate file download)
 
 ---
 
